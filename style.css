@@ -1,0 +1,183 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgrey;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.image-section img
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale(80%);
+    
+}
+.content h1{
+    font-size: 80px;
+    font-style: italic;
+}
+.content h3{
+    font-size:x-large;
+}
+.content p{
+    max-width: 400px;
+    line-height: 1.6;
+    color: #444;
+}
+.buttons{
+    text-align: center;
+}
+
+nav{
+    text-align: right;
+    border-radius: 50px;
+    padding: 20px;
+    color: black;
+    
+    }
+.nav a
+{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.nav span{
+    color: black;
+    margin: 0 5px;
+}
+.nav a:hover{
+    color:chocolate;
+}
+.buttons{
+    display: flex;
+    justify-content:right;
+    gap: 50px;
+    margin: 40px;
+}
+.circle-link{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    
+}
+.circle-link:hover{
+    background-color: #000;
+    color: #fff;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    align-items: center;
+    gap: 80px;
+    border-top: 1px solid;
+    margin-top: 40px;
+}
+.footer div{
+    text-align: center;
+}
+.footer h4{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.footer p{
+    font-size: 14px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    margin-top: 40px;
+}
+p{
+    max-width: 600px;
+    line-height: 1.6;
+}
+.left{
+    width: 200px;
+}
+.left h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.right{
+    width:75%;
+    padding-left: 40px;
+    flex: 1;
+}
+.right h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+    line-height: 1.2;
+}
+.experience
+{
+    display: flex;
+    margin-bottom: 40px;
+    gap: 450px;
+}
+.year{
+    width: 150px;
+    color: gray;
+    font-weight: bold;
+}
+.details h3{
+    margin:0;
+}
+.details p{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin-top: 8px;
+    width: 350px;
+    }
+hr.solid{
+    border-top: 1px solid;
+}
+/*.resume-section{
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 50px;
+    gap: 60px;
+    display: flex;
+}*/
+.skills-list{
+    list-style: disc;
+    padding:0;
+    margin: 0;
+}
+.skills-list li{
+    margin-bottom: 8px;
+}
+.project-card{
+    display:flex ;
+    flex-direction: column;
+    height: 100%;
+    gap: 40px;
+}
+.project-text{
+    flex: 2;
+}
+
+.project-image img{
+    object-position: right;
+    object-fit: cover;
+    margin-right: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
